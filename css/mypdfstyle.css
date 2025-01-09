@@ -1,49 +1,140 @@
-html   {
+/* Standaard CSS - ongewijzigd */
+html {
         overflow: auto;
         font-family: sans-serif;
-}
-
-html,
-body,
-object {
+    }
+    
+    html,
+    body,
+    object {
         margin: 0px;
         padding: 0px;
         height: 100%;
         border: none;
-}
-
-div,
-iframe,
-object {
+    }
+    
+    div,
+    iframe,
+    object {
         display: block;
         width: 100%;
         border: none;
         overflow-y: auto;
         overflow-x: hidden;
-}
-
-iframe {
+    }
+    
+    iframe {
         height: 90%;
-}
-
-div{
+    }
+    
+    div {
         display: flex;
-        align-items:center;
-        justify-content:space-between;
+        align-items: center;
+        justify-content: space-between;
         height: 10%;
-}
-
-a{
+    }
+    
+    a {
         color: #0000ff;
         text-decoration: none;
         cursor: cell;
-}
-
-a:visited{
+    }
+    
+    a:visited {
         color: #0000ff;
-}
-
-a:hover{
+    }
+    
+    a:hover {
         color: #ff0000;
         text-shadow: 1px 1px #ccc;
-}
+    }
+    
+    /* Nieuwe CSS-regels voor betere stijl */
+    
+    /* Algemeen */
+    body {
+        background-color: #f4f4f9;
+        color: #333;
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+    }
+    
+    /* Header */
+    header {
+        text-align: center;
+        background-color: #007acc;
+        color: white;
+        padding: 20px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+    
+    header h2 {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    
+    /* Main Content */
+    main {
+        padding: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    main section {
+        margin-bottom: 20px;
+    }
+    
+    ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+    
+    /* Afbeeldingen */
+    .images {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .images img {
+        max-width: 45%;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+    }
+    
+    .images img:hover {
+        transform: scale(1.05);
+    }
+    
+    /* Footer */
+    footer {
+        text-align: center;
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    /* Links */
+    a {
+        color: #007acc;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #ff5722;
+        text-shadow: 1px 1px 4px #aaa;
+    }
+            
